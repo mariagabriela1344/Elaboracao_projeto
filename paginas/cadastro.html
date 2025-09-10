@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+
+
+<body class="body-cadastro">
+  <div class="container-principal">
+    <div class="cadastro-container row g-0">
+
+      <!-- Lado Esquerdo - Formulário -->
+      <div class="col-lg-6 form-section">
+        <div class="voltar">
+          <a href="login.html" class="btn btn-light">
+            <i class="bi bi-arrow-left-circle"></i>
+          </a>
+        </div>
+
+        <form class="form-cadastro">
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome completo:</label>
+            <input type="text" class="form-control custom-input" id="nome">
+          </div>
+          <div class="mb-3">
+            <label for="cpf" class="form-label">CPF:</label>
+            <input type="text" class="form-control custom-input" id="cpf">
+          </div>
+          <div class="mb-3">
+            <label for="telefone" class="form-label">Telefone:</label>
+            <input type="text" class="form-control custom-input" id="telefone">
+          </div>
+          <div class="mb-3">
+            <label for="senha" class="form-label">Senha:</label>
+            <input type="password" class="form-control custom-input" id="senha">
+          </div>
+          <div class="mb-4">
+            <label for="confirmarSenha" class="form-label">Confirmar senha:</label>
+            <input type="password" class="form-control custom-input" id="confirmarSenha">
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-cadastrar">Cadastrar</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Lado Direito - Slide de Banners -->
+      <div class="col-lg-6 carousel-section">
+        <div id="carouselBanners" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../IMG/banner 3 tela de cadastro.png" class="d-block w-100" alt="Banner 1">
+            </div>
+            <div class="carousel-item">
+              <img src="../IMG/banner 2 tela de cadastro - Copia.png" class="d-block w-100" alt="Banner 2">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/BANNER TELA DE CADASTRO.png" class="d-block w-100" alt="Banner 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanners" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselBanners" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

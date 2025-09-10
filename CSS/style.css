@@ -1,0 +1,603 @@
+/*ESTILOS DE TODAS AS PAGINAS*/
+/* estilo do cabeçalho */
+
+.header {
+  background-color: #983966;
+  /* cor de fundo*/
+  padding: 10px 20px;
+  /*tamanho da área*/
+  align-items: center;
+  /* alinhar no centro*/
+  display: flex;
+  /*redimensionar*/
+  justify-content: space-between;
+  /*colocar os espaços ao lado*/
+}
+
+/* Configurando a logo do site */
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  /* tamanho da fonte do texto*/
+  font-weight: bold;
+  /*texto em negrito*/
+
+}
+
+.logo img {
+  /*dimensões da imagem*/
+  width: 80px;
+  /*tamanho*/
+  margin-right: 10px;
+  /*margens*/
+}
+
+/*CONFIGURAÇÃO DA BARRA DE PESQUISA DO MENU SUPERIOR*/
+
+.search-box {
+  flex: 1;
+  max-width: 600px;
+  /*largura máxima*/
+  margin: 0 20px;
+  /* margens da caixa*/
+  position: relative;
+  /*posição*/
+}
+
+.search-box input {
+  /*configuração da parte de dentro*/
+  width: 100%;
+  /*preencher toda área*/
+  padding: 10px 40px 10px 15px;
+  /*definindo o espaço cima,direita,baixo,esquerda*/
+  border: none;
+  /*borda da caixa*/
+  border-radius: 20px;
+  /*expessura da borda*/
+  font-size: 16px;
+  /*tamanho da fonte do texto*/
+}
+
+/*CONFIGURANDO OS ICONES DO MENU SUPERIOR*/
+
+.icons {
+  display: flex;
+  /* os icones ficam flexiveis a mudança de tela*/
+  gap: 20px;
+  /*espaço entre os icones*/
+  align-items: center;
+  /*centralizar os itens no meio do menu*/
+  margin-right: 20px;
+  /*dá um espaço do icone com a borda lateral do menu*/
+}
+
+.icons img {
+  /**configurando as imagens dos icones*/
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+
+}
+
+/* CONFIGURAÇÕES PARA O RODAPÉ*/
+
+.footer {
+  background-color: #8d4589;
+  /*cor de fundo*/
+  padding: 15px 40px 15px 40px;
+  /*dimensão*/
+  color: white;
+  /*cor do texto*/
+  font-family: Arial, Helvetica, sans-serif;
+  /*fonte dos textos*/
+
+}
+
+.footer-esquerdo {
+  font-weight: bold;
+  /*colocando o texto em negrito*/
+  margin: 0;
+}
+
+.footer-direito {
+  text-align: right;
+  /*Texto alinhado à direita*/
+  margin: 0;
+}
+
+.icons-sociais {
+  /*configurando a área onde fica os icones das redes sociais*/
+  display: flex;
+  gap: 20px;
+  /*distancia entre eles*/
+  justify-content: flex-end;
+}
+
+.icons-sociais img {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s;
+  /* animação suave ao passar o mouse em cima*/
+
+}
+
+/* Fundo da tela */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Card */
+.card {
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+/* Botão cadastrar */
+.btn-cadastrar {
+  background-color: #c29bb4;
+  color: #fff;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-cadastrar:hover {
+  background-color: #a47a92;
+  color: #fff;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 25px;
+  background-color: #e8d4df;
+  border: none;
+  padding: 10px 15px;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 5px #c29bb4;
+  background-color: #f1e6ef;
+}
+
+/* Fundo dividido */
+.bg-left {
+  background-color: #d3a9b8;
+  /* tom rosado claro */
+}
+
+.bg-right {
+  background-color: #b998a6;
+  /* tom rosado mais escuro */
+}
+
+/* Card do formulário */
+.form-card {
+  max-width: 400px;
+  width: 100%;
+  background-color: #e8d4af;
+  /* bege parecido com a imagem */
+  border-radius: 15px;
+  border: none;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 25px;
+  background-color: #fff;
+  border: none;
+  padding: 10px 15px;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 0 5px #c29bb4;
+}
+
+/* Botão login */
+.btn-login {
+  background-color: #b48489;
+  color: #fff;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #9a6c70;
+  color: #fff;
+}
+
+/* Logo */
+.logo-img {
+  max-width: 70%;
+  border-radius: 10px;
+}
+
+
+
+
+
+.logo-img {
+  max-width: 50%;
+  margin-top: 20px;
+}
+
+/* Fundo da página */
+.body-cadastro {
+  background-image: url(../IMG/fundocadastro.png);
+
+  background-repeat: no-repeat;
+  /* impede a repetição */
+  background-size: cover;
+  /* cobre toda a tela proporcionalmente */
+  background-position: center;
+  /* centraliza a imagem */
+  height: 100vh;
+  /* garante altura total */
+  margin: 0;
+}
+.logologin{
+  background-color: #b48489;
+}
+
+body {
+
+  /* bege */
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container principal */
+.container-principal {
+  width: 1500px;
+
+  max-width: 3000px;
+}
+
+.cadastro-container {
+  background-color: #b893a8;
+  /* lilás */
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Parte do formulário */
+.form-section {
+  background: #fff;
+  padding: 40px;
+  position: relative;
+}
+
+/* Botão voltar maior */
+.voltar .btn {
+  width: 60px;
+  /* largura do botão */
+  height: 60px;
+  /* altura do botão */
+  border-radius: 12px;
+  /* bordas arredondadas (pode trocar para 50% se quiser circular) */
+  display: flex;
+  /* centraliza o ícone */
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  /* remove espaçamento extra */
+}
+
+/* Ícone dentro do botão */
+.voltar .btn i {
+  font-size: 32px;
+  /* ícone tamanho 32px */
+}
+
+/* Inputs arredondados lilás */
+.custom-input {
+  background-color: #d2b4c2;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 15px;
+  color: #000;
+}
+
+.custom-input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #b893a8;
+}
+
+/* Botão cadastrar */
+.btn-cadastrar {
+  background-color: #d2b4c2;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  color: #000;
+  font-weight: 500;
+}
+
+.btn-cadastrar:hover {
+  background-color: #c49bb5;
+  color: #fff;
+}
+
+/* Slide banners */
+.carousel-section img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media(max-width: 991px) {
+  .carousel-section {
+    display: none;
+  }
+}
+/* Navbar */
+.custom-navbar {
+  background-color: #d6a884;
+  padding: 10px 20px;
+}
+
+.search-bar {
+  border-radius: 25px;
+  border: none;
+  padding: 8px 15px;
+  width: 300px;
+}
+
+.search-icon {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.nav-icon {
+  font-size: 22px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Produto */
+.product-image-box {
+  background-color: #d6a884;
+  padding: 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.color-option {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+
+
+.social-icon {
+  font-size: 28px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* Navbar */
+.custom-navbar {
+  background-color: #d6a884;
+  padding: 8px 20px;
+}
+
+.search-bar {
+  border-radius: 25px;
+  border: none;
+  padding: 6px 15px;
+  width: 250px;
+}
+
+.search-icon {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.nav-icon {
+  font-size: 22px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Carrinho */
+.cart-box {
+  background-color: #d6b3c9;
+  border-radius: 10px;
+}
+
+.color-option {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.bg-pink { background-color: #e995bf; }
+
+
+/*Cor de fundo da area direita da area de Login*/
+.bg-login-logo { 
+  background-color: #AD1457;
+ }
+
+.qty-input {
+  width: 40px;
+  text-align: center;
+  border: none;
+  background-color: #f1f1f1;
+  margin: 0 5px;
+}
+
+/* Sugestões */
+.suggestion-box {
+  background-color: #d6b3c9;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.suggestion-circle {
+  background-color: #d6b3c9;
+  padding: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Footer */
+.footer {
+  background-color: #440321a4;
+  color: #ffffff;
+  height: 120px;
+}
+
+.social-icon {
+  font-size: 26px;
+  margin: 0px;
+  cursor: pointer;
+}
+/* Cor roxa personalizada */
+
+/* Botão entrada tela de Login */
+.btn-entrar {
+  background-color: #983966;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn-entrar:hover {
+  background-color: #614351;
+  color: #fff;
+}
+
+/* Ajusta imagens de pagamento */
+.row img {
+  max-width: 100%;
+  height: auto;
+}
+
+.area-login{
+  background-color: #a42c6479;
+  border-radius: 20px;
+  color: rgb(15, 15, 15);
+}
+
+
+/*configurando a tela home*/
+.carousel-inner{
+  margin-top: 500px;
+}
+
+.areas-ofertas{
+  margin-bottom: 250px;
+}
+
+/* Cor principal (rosa) */
+.text-pink {
+  color: #d63384;
+}
+
+/* Carrossel */
+.banner-img {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Categorias */
+.circle-category {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #d6b272;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.circle-category img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Cards de produto */
+.product-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #d6b3c9;
+}
+
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card .card-body {
+  padding: 12px;
+}
+
+.product-card .card-title {
+  font-size: 0.9rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Bolinhas de cores */
+.color-circle {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 5px;
+  border: 1px solid #555;
+}
+
+.bg-beige {
+  background-color: #d8b899;
+}
+
+.bg-green {
+  background-color: #4e6f50;
+}
+
+.bg-brown {
+  background-color: #a16842;
+}
+
+/* Cor roxa personalizada */
+.bg-purple {
+  background-color: #9b6b82 !important;
+}
+
+/* Botão roxo */
+.btn-purple {
+  background-color: #9b6b82;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn-purple:hover {
+  background-color: #7d5568;
+}
+
+/* Ajusta imagens de pagamento */
+.row img {
+  max-width: 100%;
+  height: auto;
+}
