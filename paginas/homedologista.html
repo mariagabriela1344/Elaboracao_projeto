@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../ccs/style.css">
+
+  </head>
+
+
+
+  <body>
+    
+      <div class="container-fluid p-0">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-purple border-bottom">
+      <div class="container justify-content-center">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a class="nav-link active" href="#">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Promoções</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pagamentos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Conversas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Frete</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+
+      <!-- Resumo de Vendas -->
+      <div class="row mb-4">
+        <div class="col-md-3 col-sm-6 mb-3">
+          <div class="summary-box">
+            <p>Total de vendas</p>
+            <strong>R$:20.000</strong>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+          <div class="summary-box">
+            <p>Quantidade de vendas</p>
+            <strong>R$:220</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pedidos -->
+      <h6 class="fw-bold text-pink mb-3">Pedidos a serem entregues</h6>
+
+      <!-- Card Pedido -->
+      <div class="order-card d-flex flex-wrap align-items-center p-3 mb-3">
+        <img src="img/produto.png" alt="Produto" class="order-img me-3 mb-2 mb-md-0">
+        <div class="flex-grow-1">
+          <p class="mb-1 fw-bold">Conjunto Bege blazer</p>
+          <p class="mb-1">Cor: única &nbsp; Quantidade: 1</p>
+          <p class="mb-1 small">Endereço: Rua B, Quadra AA, Lote 03 Setor Couto, Araguaína-TO, 77824-640</p>
+        </div>
+        <div class="d-flex flex-column ms-md-3">
+          <button class="btn btn-pink mb-2">Entregar</button>
+          <button class="btn btn-secondary">Cancelar</button>
+        </div>
+      </div>
+
+      <div class="order-card d-flex flex-wrap align-items-center p-3 mb-3">
+        <img src="img/produto.png" alt="Produto" class="order-img me-3 mb-2 mb-md-0">
+        <div class="flex-grow-1">
+          <p class="mb-1 fw-bold">Conjunto Bege blazer</p>
+          <p class="mb-1">Cor: única &nbsp; Quantidade: 1</p>
+          <p class="mb-1 small">Endereço: Rua B, Quadra AA, Lote 03 Setor Couto, Araguaína-TO, 77824-640</p>
+        </div>
+        <div class="d-flex flex-column ms-md-3">
+          <button class="btn btn-pink mb-2">Entregar</button>
+          <button class="btn btn-secondary">Cancelar</button>
+        </div>
+      </div>
+
+      <div class="order-card d-flex flex-wrap align-items-center p-3 mb-3">
+        <img src="img/produto.png" alt="Produto" class="order-img me-3 mb-2 mb-md-0">
+        <div class="flex-grow-1">
+          <p class="mb-1 fw-bold">Conjunto Bege blazer</p>
+          <p class="mb-1">Cor: única &nbsp; Quantidade: 1</p>
+          <p class="mb-1 small">Endereço: Rua B, Quadra AA, Lote 03 Setor Couto, Araguaína-TO, 77824-640</p>
+        </div>
+        <div class="d-flex flex-column ms-md-3">
+          <button class="btn btn-pink mb-2">Entregar</button>
+          <button class="btn btn-secondary">Cancelar</button>
+        </div>
+      </div>
+
+      <!-- Lista de Vendas -->
+      <h6 class="fw-bold text-purple mt-5">Lista de Vendas</h6>
+      <div class="table-responsive">
+        <table class="table table-bordered text-center align-middle mt-2 vendas-table">
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>Valor</th>
+              <th>Data</th>
+              <th>Promoções</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="5" class="text-muted">Nenhuma venda registrada ainda...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+        
+
+    </footer>
+
+   
+  </body>
+</html>

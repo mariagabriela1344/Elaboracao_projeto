@@ -6,55 +6,119 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../css/style.css"
+    <link rel="stylesheet" href="../css/style.css">
 
   </head>
 
 
 
   <body>
-    <header class="header">
-        <div class="logo">
+    <div class="container-fluid py-4">
 
-            <img src="../IMG/logo-alana-lima.png" alt="Logo Alana lima">
+    <!-- Cabeçalho -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2 class="text-purple fw-bold">Dados Pessoais</h2>
+      <button class="btn btn-purple">
+        <i class="fa-solid fa-pen me-2"></i>Editar Perfil
+      </button>
+    </div>
+
+    <!-- Container Dados Pessoais -->
+    <div class="dados-pessoais card shadow-sm mb-4">
+      <div class="card-body">
+        <form>
+          <div class=" row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Nome:</label>
+              <input type="text" class="form-control input-custom" value="Maria Gabriela" disabled>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">CPF:</label>
+              <input type="text" class="form-control input-custom" value="000.000.000-00" disabled>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Telefone:</label>
+              <input type="text" class="form-control input-custom" value="(63) 90000-0000" disabled>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">E-mail:</label>
+              <input type="email" class="form-control input-custom" value="email@exemplo.com" disabled>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">CEP:</label>
+              <input type="text" class="form-control input-custom" value="77824-640" disabled>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Cidade:</label>
+              <input type="text" class="form-control input-custom" value="Araguaína" disabled>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Estado:</label>
+              <input type="text" class="form-control input-custom" value="TO" disabled>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Rua/Logradouro:</label>
+              <input type="text" class="form-control input-custom" value="Rua B, Quadra AA, Lote 03" disabled>
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Bairro:</label>
+              <input type="text" class="form-control input-custom" value="Setor Couto" disabled>
+            </div>
+            <div class="col-md-3">
+              <label class="form-label">Complemento:</label>
+              <input type="text" class="form-control input-custom" value="-" disabled>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Meus estilos -->
+    <h5 class="text-purple fw-bold ">Meus estilos</h5>
+    <div class="d-flex flex-wrap gap-3 mb-5">
+      <img src="img/estilo1.png" class="style-img" alt="Estilo 1">
+      <img src="img/estilo2.png" class="style-img" alt="Estilo 2">
+    </div>
+
+    <!-- Minhas compras -->
+    <h5 class="fw-bold text-purple">Minhas compras</h5>
+    <div class="row g-4">
+
+      <!-- Compra 1 -->
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="d-flex p-3">
+            <img src="img/calca.png" alt="Produto" class="purchase-img me-3">
+            <div>
+              <p class="fw-bold mb-1">Calça Pantalona Preta</p>
+              <p class="mb-1">Cor: <span class="color-box" style="background:#000;"></span></p>
+              <p class="mb-1">Quantidade: 1 &nbsp; | &nbsp; Situação: Pago</p>
+              <p class="mb-1">Forma de pagamento: Pix</p>
+              <p class="mb-0 fw-semibold">Valor total: R$150,00</p>
+            </div>
+          </div>
         </div>
+      </div>
 
-
-        <div class="search-box">
-            <input type="text" placeholder="buscar...">
+      <!-- Compra 2 -->
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <div class="d-flex p-3">
+            <img src="img/conjunto.png" alt="Produto" class="purchase-img me-3">
+            <div>
+              <p class="fw-bold mb-1">Conjunto Bege</p>
+              <p class="mb-1">Cor: <span class="color-box" style="background:#c9c0aa;"></span></p>
+              <p class="mb-1">Quantidade: 1 &nbsp; | &nbsp; Situação: A caminho</p>
+              <p class="mb-1">Forma de pagamento: Pix</p>
+              <p class="mb-0 fw-semibold">Valor total: R$190,00</p>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="icons">
+    </div>
 
-            <img src="../IMG/chat.png" alt="chat">
-            <img src="../IMG/carrinho.png" alt="carrinho">
-            <img src="../IMG/perfil.png" alt="perfil">
-
-        </div>
-    </header>
-
-    <!--Rodapé-->
-    <footer class="footer">
-        <div class="footer-esquerdo">
-            <p> Dsenevolvido por Maria Gabriela Reis
-        </div>
-
-        <!--Area Direita com as redes sociais-->
-        <div class=footer-direito>
-            <p> Conheça nossas redes sociais</p>
-            <a href="">
-                <img src="" alt="instagram">
-            </a>
-
-            <a href="">
-                <img src="" alt="tiktok">
-            </a>
-            <a href="">
-                <img src="" alt="facebook">
-            </a>
-        </div>
-
-    </footer>
+  </div>
 
    
   </body>

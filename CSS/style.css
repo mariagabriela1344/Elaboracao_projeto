@@ -601,3 +601,228 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.nav-pills .nav-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover {
+  background-color: #d63384;
+  color: #fff;
+}
+
+.summary-box {
+  background: #ffe8b5;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.text-purple {
+  color: #a34c92;
+}
+
+/* Cards de pedidos */
+.order-card {
+  background: #f8c5e0;
+  border-radius: 8px;
+}
+
+.order-img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.btn-pink {
+  background-color: #d63384;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-pink:hover {
+  background-color: #b0266b;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  border: none;
+  font-weight: 600;
+}
+
+/* Tabela */
+.vendas-table th {
+  background-color: #f2c8e0;
+  color: #000;
+}
+
+body {
+  background-color: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+
+/* Topbar */
+.bg-lightpink {
+  background-color: #d7b7c9;
+}
+
+.search-input {
+  border-radius: 20px;
+  padding: 5px 15px;
+  width: 250px;
+}
+
+/* Títulos */
+.text-purple {
+  color: #8b4e8b;
+}
+
+/* Inputs */
+.input-custom {
+  background-color: #e6cce0;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.input-custom:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #a34c92;
+}
+
+/* Imagens estilos */
+.style-img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Compras */
+.purchase-img {
+  width: 100px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 1px solid #333;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #d7b7c9;
+}
+
+.footer a {
+  color: #000;
+  text-decoration: none;
+}
+.dados-pessoais{
+  background-color: #beaaac;
+}
+body {
+  background-color: #eaeaea;
+  font-family: Arial, sans-serif;
+}
+
+/* Botão roxo */
+.btn-purple {
+  background-color: #8b4e8b;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.btn-purple:hover {
+  background-color: #6d3b6d;
+  color: #af37a5;
+}
+
+/* Texto roxo */
+.text-purple {
+  color: #8b4e8b;
+}
+
+/* Inputs */
+.input-custom {
+  background-color: #e6cce0;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.input-custom:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #a34c92;
+}
+
+/* Imagens estilos */
+.style-img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Compras */
+.purchase-img {
+  width: 100px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 1px solid #333;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Cores personalizadas */
+.text-purple {
+  color: #8b4e8b;
+}
+.btn-purple {
+  background-color: #8b4e8b;
+  color: #fff;
+  border-radius: 6px;
+}
+.btn-purple:hover {
+  background-color: #6d3b6d;
+  color: #290404;
+}
+
+/* Perfil */
+.profile-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.contact-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
